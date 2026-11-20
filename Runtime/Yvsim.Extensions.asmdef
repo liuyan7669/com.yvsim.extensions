@@ -1,0 +1,20 @@
+{
+  "name": "Yvsim.Extensions",
+  "rootNamespace": "Yvsim.Extensions",
+  "references": [
+    "UnityEngine.UI",
+    "Unity.TextMeshPro"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.unity.textmeshpro",
+      "expression": "",
+      "define": "YVSIM_TMP"
+    },
+    {
+      "name": "com.unity.ugui",
+      "expression": "2.0.0",
+      "define": "YVSIM_TMP"
+    }
+  ]
+}

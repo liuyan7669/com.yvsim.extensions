@@ -1,0 +1,42 @@
+{
+  "name": "com.yvsim.extensions",
+  "version": "1.0.0",
+  "displayName": "Yvsim Extensions",
+  "description": "统一使用 Yv 前缀的 Unity/C# 扩展方法集合，适合集中处理常见数据、物体、层级和 UGUI 操作。\n\n主要功能：\n1. 集合判空、安全索引、随机/权重抽取、打乱与日志；字符串缩进、空白/控制字符清理和富文本包装。\n2. Transform 重置、复制姿态和单轴赋值，递归查找子节点、层级路径、激活状态和 Layer 操作。\n3. 获取或添加组件、查找父子组件、安全销毁、计算层级包围盒及自动适配 BoxCollider。\n4. Vector/Color 操作，UGUI 锚点与尺寸设置、保持视觉位置修改 Pivot、透明度/交互设置和布局重建。\n5. 以 Action 设置 UGUI/TMP 事件与物体点击回调，组合设置文本和显隐。\n\n使用说明：TMP 扩展按已安装包启用；高亮与高亮点击属于可选 Highlight Plus 示例，需另装该插件。物体点击需 EventSystem 及相应射线检测组件，核心包不依赖其他 Yvsim 业务包。",
+  "unity": "2021.3",
+  "dependencies": {
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.ugui": "1.0.0"
+  },
+  "author": {
+    "name": "Yvsim"
+  },
+  "license": "MIT",
+  "keywords": [
+    "extensions",
+    "collection",
+    "string",
+    "transform",
+    "click",
+    "ugui",
+    "layout",
+    "utility"
+  ],
+  "samples": [
+    {
+      "displayName": "Highlight Plus Integration",
+      "description": "在安装 Highlight Plus 后导入，提供 YvSetHighlight 与 YvSetHighlightClick：配置高亮、描边与颜色，并演示等待一次点击后取消高亮和回调的组合操作；核心扩展包不依赖 Highlight Plus。",
+      "path": "Samples~/Highlight Plus Integration"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/com.yvsim.extensions.git"
+  },
+  "documentationUrl": "https://github.com/liuyan7669/com.yvsim.extensions#readme",
+  "changelogUrl": "https://github.com/liuyan7669/com.yvsim.extensions/blob/main/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/liuyan7669/com.yvsim.extensions/issues"
+  },
+  "licensesUrl": "https://github.com/liuyan7669/com.yvsim.extensions/blob/main/LICENSE.md"
+}
